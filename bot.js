@@ -290,6 +290,8 @@ ${prefix}np ⇏ لمعرفة الأغنية المشغلة حآليا
 ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 Admins:
 ${prefix}bc1 ⇏ لارسال رسالة لأعضاء السيرفر
+${prefix}kick ⇏ طرد عضو
+${prefix}ban ⇏ حظر عضو
 `)
    message.channel.sendEmbed(embed)
    
