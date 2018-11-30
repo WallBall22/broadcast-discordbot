@@ -23,7 +23,7 @@ return;
         return;
     }
 });
-lient.on("message", message => {
+client.on("message", message => {
 
             if (message.content.startsWith(prefix + "obc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
